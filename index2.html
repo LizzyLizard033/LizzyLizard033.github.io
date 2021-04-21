@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Redirecting to http://localhost:8888</title>
+<script type="text/javascript">
+var url = new URL(location.href);
+var code = url.searchParams.get("code");
+  var code = url.searchParams.get("state");
+window.location = 'http://bigbot.localhost/discord/includes/login.php?code=' + code + "&state=" + state;
+</script>
