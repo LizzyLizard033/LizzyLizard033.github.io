@@ -4,6 +4,6 @@
 <script type="text/javascript">
 var url = new URL(location.href);
 var code = url.searchParams.get("code");
-  var code = url.searchParams.get("state");
+  var state = url.searchParams.get("state");
 window.location = 'http://bigbot.localhost/discord/includes/login.php?code=' + code + "&state=" + state;
 </script>
